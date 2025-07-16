@@ -41,15 +41,15 @@ function Footer(){
                     </div>
                     <div className="flex items-center bg-white w-[825px] px-[10px] h-[116px] rounded-[20px]">
                         <input className="w-[554px] outline-none placeholder:text-[#242F65] text-[24px]" type="text" placeholder="Interested in working together? Drop me a line"/>
-                        <Buttons extraClass="bg-[#242F65] w-[187px] h-[52px] text-white text-[20px]" title={"Write Now"} img={FooterBtnImg}/>
+                        <Buttons extraClass="bg-[#242F65] w-[187px] h-[52px] text-white text-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#242F65] hover:text-[#242F65] duration-300" title={"Write Now"} img={FooterBtnImg}/>
                     </div>
                 </div>
                 <span className="w-full h-[1px] bg-[#D092BA]"></span>
                 <div data-aos="zoom-out-up" className="containers">
-                    <span className="text-[20px] text-[#242F65] font-normal">Copyright © UIUXer | Designed by</span>
-                    <span className="text-[20px] text-[#242F65] font-normal">VictorFlow</span>
-                    <span className="text-[20px] text-[#242F65] font-normal">Templates - Powered by</span>
-                    <span className="text-[20px] text-[#242F65] font-normal">Webflow</span>
+                    <span className="text-[20px] text-[#242F65] font-normal hover:text-[27px] hover:duration-initial-300">Copyright © UIUXer | Designed by</span>
+                    <span className="text-[20px] text-[#242F65] font-normal hover:text-[27px] hover:duration-initial-300">VictorFlow</span>
+                    <span className="text-[20px] text-[#242F65] font-normal hover:text-[27px] hover:duration-initial-300">Templates - Powered by</span>
+                    <span className="text-[20px] text-[#242F65] font-normal hover:text-[27px] hover:duration-initial-300">Webflow</span>
                 </div>
             </div>
         </footer>
