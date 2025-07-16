@@ -1,0 +1,29 @@
+.partner-marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.partner-track {
+  display: flex;
+  width: fit-content;
+  animation: slide 20s linear infinite;
+}
+
+
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.site-footer{
+  background-image: url("../../assets/images/footerBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1063px;
+}

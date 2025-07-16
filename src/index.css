@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fraunces-v37-latin-regular.woff2') format('woff2'); 
+}
+
+body{
+  font-family: "Fraunces", sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.containers{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
