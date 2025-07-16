@@ -8,7 +8,7 @@ function Header() {
           <div className="containers flex items-center justify-between">
              <img src={LogoImg} alt="logo img " width={176} height={41}/>
              <nav className="flex gap-[82px] items-center">
-              {navlist.map((item, index) => <NavLink key={index} title={item}/>)}
+              {navlist.map((item, index) => <NavLink className="hover:text-amber-300" key={index} title={item}/>)}
              </nav>
           </div>
         </header>

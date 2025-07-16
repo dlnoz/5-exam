@@ -18,5 +18,8 @@ import HeroImg10 from "./heroimg10.png"
 import HeroImg11 from "./heroimg11.png"
 import HeroImg12 from "./heroimg12.png"
 import HeroImg13 from "./heroimg13.png"
+import RoundImg from "./roundimg.png"
+import HeroRoundImg from "./heroroundimg.png"
+import FooterBtnImg from "./footerbtnimg.png"
 
-export {LogoImg, HeroBg, GetReady, GetReadyImg, FooterImg1, FooterImg2, FooterBg, HeroImg1, HeroImg2, HeroImg3, HeroImg4, HeroImg5, HeroImg6, HeroImg7, HeroImg8, HeroImg9, HeroImg10, HeroImg11, HeroImg12, HeroImg13}
+export {LogoImg, HeroBg, GetReady, GetReadyImg, FooterImg1, FooterImg2, FooterBg, HeroImg1, HeroImg2, HeroImg3, HeroImg4, HeroImg5, HeroImg6, HeroImg7, HeroImg8, HeroImg9, HeroImg10, HeroImg11, HeroImg12, HeroImg13, RoundImg, HeroRoundImg, FooterBtnImg}
